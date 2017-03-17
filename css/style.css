@@ -1,77 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Indie+Flower|Fascinate+Inline|Lobster|Oswald');
 
+body {
+	background-color: #efefef;
+}
 /* navbar menu */
-.navbar {
-	height: 20px;
-	margin-top: 0px;
-	padding-top: 0px;
-	font-family: Indie Flower;	
+#nav-top {
+	background-color: #efefef;
+	width: 100%;
+	border-bottom: 0px;
 }
-#logo  p {
-	font-size: 25px;
-	color: #000000;
+#nav-bar {
+	border: none;
 }
-#navbar li {
-	font-size: 20px;
+span {
+	font-size: 14px;
 }
-.glyphicon-menu-hamburger {
-	font-size: 20px;
-	color: #000000;
-	margin-top: -2px;
-	padding-top: 0px;
-}
+
 /* title banner */
 #title-banner {
 	background-image: url("../img/pexels-photo-38125.jpeg");
 	background-size: 100%;
+	height: 600px;
+	padding-top: 200px;
+	border-top: 0px;
+	
 }
 #title-banner h1 {
 	color: #ffffff;
 	font-family: Poppins;
+	color: #e7dfdd;
 }
 #title-banner p {
 	color: #ffffff;
 	font-family: Poppins;
 }
 /* main content */
-#main-content .row {
-	margin-bottom: 10px;
-}
-#main-content .col-md-6  {
-	height: 520x;
-}
-#main-content .col-md-6  img {
-	height: 500px;
-	width: 550px;
-}
-#square-one {
-	border-width: 1px;
-	border-style: solid;
-	border-color: #000000;
-	padding: 10px 10px 10px 10px;
-}
-#square-two {
-	border-width: 1px;
-	border-style: solid;
-	border-color: #000000;
-}
-#square-three {
-	border-width: 1px;
-	border-style: solid;
-	border-color: #000000;
-}
-#square-four {
-	border-width: 1px;
-	border-style: solid;
-	border-color: #000000;
-}
-#square-five {
-	border-width: 1px;
-	border-style: solid;
-	border-color: #000000;
-}
-#square-six {
-	border-width: 1px;
-	border-style: solid;
-	border-color: #000000;
-}
