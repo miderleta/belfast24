@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Indie+Flower|Fascinate+Inline|Lobster|Oswald');
+
+body {
+	background-color: #f4f4f4;
+}
+.container {
+	width: 100%;
+}
+/* navbar menu */
+#nav-menu {
+	width: 100%;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-right: 40px;
+	margin-top: -40px;
+}
+#navbar a {
+	font-family: Oswald;
+	font-size: 20px;
+	color: #F89406;
+}
+/* title banner */
+.text-danger {
+	color: #ff0000;
+}
+#title-banner {
+	background-image: url("../img/pexels-photo-38125.jpeg");
+	background-size: 100%;
+	height: 600px;
+	border: 0;
+	margin-bottom: 0px;	
+}
+#title-banner h1 {
+	font-family: Poppins;
+	font-size: 68px;
+	color: #F89406;
+	margin-top: 300px;
+}
+#title-banner p {
+	font-size: 35px;
+	color: #ffffff;
+	font-family: Poppins;
+}
+/* main content */
+#page-content .row {
+	height: 400px;
+	margin: 0px 0px 0px 0px;
+	padding-top: 50px;
+}
+#page-content #about {
+	width: 100%;
+	background-color: #f4decb;
+}
+#page-content #playlist {
+	width: 100%;
+	background-color: #f8eee7;
+}
+#page-content #contact {
+	width: 100%;
+	background-color: #ffffff;
+}
+#page-content h2 {
+	font-family: Oswald;
+	font-size: 48px;
+	color: #F89406;
+}
+#page-content p {
+	font-family: Poppins;
+	font-size: 28px;
+}
+#page-content hr {
+	color: #F89406;
+}
+/* footer */
+footer {
+	background-color: #94618E;
+	height: 300px;
+	margin-top: 0px;
+}
