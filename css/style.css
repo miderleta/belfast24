@@ -43,21 +43,21 @@ body {
 }
 /* main content */
 #page-content .row {
-	height: 400px;
 	margin: 0px 0px 0px 0px;
 	padding-top: 50px;
+	padding-bottom: 50px;
 }
 #page-content #about {
-	width: 100%;
 	background-color: #f4decb;
+	height: 200px;
 }
 #page-content #playlist {
-	width: 100%;
 	background-color: #f8eee7;
+	height: 400px;
 }
 #page-content #contact {
-	width: 100%;
-	background-color: #ffffff;
+	background-color: #94618E;
+	height: 200px;
 }
 #page-content h2 {
 	font-family: Oswald;
@@ -72,8 +72,3 @@ body {
 	color: #F89406;
 }
 /* footer */
-footer {
-	background-color: #94618E;
-	height: 300px;
-	margin-top: 0px;
-}
