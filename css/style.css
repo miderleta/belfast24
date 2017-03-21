@@ -3,9 +3,9 @@
 body {
 	background-color: #f4f4f4;
 }
-.container {
-	width: 100%;
-}
+/* .container { */
+	/* width: 100%; */
+/* } */
 /* navbar menu */
 #nav-menu {
 	width: 100%;
@@ -43,21 +43,33 @@ body {
 }
 /* main content */
 #page-content .row {
-	margin: 0px 0px 0px 0px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	margin: 20px 0px 20px 0px;
+	/*background-color: #ffce00;*/
+}
+#page-content #second-row  {
+	/*background-color: #f4f4f4;*/
+	margin-top: 310px;
+	padding-bottom: 0px;
 }
 #page-content #about {
 	background-color: #f4decb;
-	height: 200px;
+	height: 300px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	margin-left: -5px;
+	
 }
 #page-content #playlist {
 	background-color: #f8eee7;
-	height: 400px;
+	height: 620px;
+	margin-left: 10px;
+	margin-right: -10px;
 }
 #page-content #contact {
 	background-color: #94618E;
-	height: 200px;
+	height: 310px;
+	padding-top: 10px;
 }
 #page-content h2 {
 	font-family: Oswald;
