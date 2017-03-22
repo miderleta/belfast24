@@ -12,26 +12,31 @@ body {
 	padding-right: 0px;
 	margin-top: -40px;
 }
-#navbar .dropdown {
-	background-color: none;
+#nav-menu .navbar-nav ul {
+	background-color: transparent;
+	background: transparent;
+	border-color: transparent
 }
-#navbar a {
+#nav-menu a {
+	background-color: transparent;
+	/* background: transparent; */
+	border-color: transparent;
 	font-family: Oswald;
 	font-size: 20px;
 	color: #F89406;
+	padding: 0px 0px 0px 0px;
 }
-/* title banner */
-.text-danger {
-	color: #ff0000;
-}
+
 .jumbotron {
 	background-image: url("../img/pexels-photo-38125.jpeg");
-	background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
 	display: block;
-	repeat: none;
 	height: 600px;
 	border: 0;
 	margin-bottom: 0px;	
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .jumbotron h1 {
 	font-family: Poppins;
@@ -44,19 +49,21 @@ body {
 	color: #ffffff;
 	font-family: Poppins;
 }
+.text-red {
+	color: #ff0000;
+}
+
 /* main content */
 #page-content .row {
 	margin: 20px 0px 20px 0px;
-	/*background-color: #ffce00;*/
 }
 #page-content #second-row  {
-	/*background-color: #f4f4f4;*/
-	margin-top: 310px;
+	margin-top: 410px;
 	padding-bottom: 0px;
 }
 #page-content #about {
 	background-color: #f4decb;
-	height: 300px;
+	height: 400px;
 	padding-left: 0px;
 	padding-right: 0px;
 	padding-bottom: 10px;
@@ -65,7 +72,7 @@ body {
 }
 #page-content #playlist {
 	background-color: #f8eee7;
-	height: 620px;
+	height: 720px;
 	margin-left: 10px;
 	margin-right: -10px;
 }
