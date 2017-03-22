@@ -3,16 +3,17 @@
 body {
 	background-color: #f4f4f4;
 }
-/* .container { */
-	/* width: 100%; */
-/* } */
+
 /* navbar menu */
 #nav-menu {
 	width: 100%;
 	margin-top: 0px;
 	padding-top: 0px;
-	padding-right: 40px;
+	padding-right: 0px;
 	margin-top: -40px;
+}
+#navbar .dropdown {
+	background-color: none;
 }
 #navbar a {
 	font-family: Oswald;
@@ -23,20 +24,22 @@ body {
 .text-danger {
 	color: #ff0000;
 }
-#title-banner {
+.jumbotron {
 	background-image: url("../img/pexels-photo-38125.jpeg");
 	background-size: 100%;
+	display: block;
+	repeat: none;
 	height: 600px;
 	border: 0;
 	margin-bottom: 0px;	
 }
-#title-banner h1 {
+.jumbotron h1 {
 	font-family: Poppins;
 	font-size: 68px;
 	color: #F89406;
 	margin-top: 300px;
 }
-#title-banner p {
+.jumbotron p {
 	font-size: 35px;
 	color: #ffffff;
 	font-family: Poppins;
